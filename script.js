@@ -5,7 +5,7 @@ const imgarr = ["https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/bl
 
 
 
-function abc(){
+function imggen(){
     let randomx = Math.random()*100;
     let randomy =Math.random()*100;
     let rotate = Math.random()*360;
@@ -17,7 +17,7 @@ function abc(){
 
 
 btn.addEventListener("click",()=>{
-    const {randomx,randomy,randomimage, rotate}= abc();
+    const {randomx,randomy,randomimage, rotate}= imggen();
     const image = document.createElement("img");
     image.style.position = "absolute"
     image.style.height = "100px";
