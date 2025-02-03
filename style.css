@@ -9,14 +9,15 @@ html,body{
 }
 button{
     padding: 10px 20px;
-    background-color: blueviolet;
+    background:linear-gradient(#540205,#fa7193) ;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 9;
     transform: translate(-50%,-50%);
+    text-transform: capitalize;
 }
 button:active{
     transform:translate(-50%,-50%) scale(0.8) ;

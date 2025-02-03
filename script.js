@@ -21,6 +21,7 @@ btn.addEventListener("click",()=>{
     const image = document.createElement("img");
     image.style.position = "absolute"
     image.style.height = "100px";
+    image.style.width = "100px";
     image.style.borderRadius = "50px";
     image.style.top = randomy + "%";
     image.style.left = randomx + "%";
